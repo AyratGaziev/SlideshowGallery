@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Slideshow Gallery</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="slider">
+                <button class="slider__right">&gt;</button>
+                <button class="slider__left">&lt;</button>
+                <img class="slider__img show" src="./img/1.jpg" alt="" />
+                <img class="slider__img" src="./img/2.jpg" alt="" />
+                <img class="slider__img" src="./img/3.jpg" alt="" />
+                <img class="slider__img" src="./img/4.jpg" alt="" />
+            </div>
+            <div class="thumb">
+                <div id="0" class="thumb__img-wrap">
+                    <img class="thumb__img" src="./img/1.jpg" alt="" />
+                </div>
+                <div id="1" class="thumb__img-wrap filter">
+                    <img class="thumb__img" src="./img/2.jpg" alt="" />
+                </div>
+                <div id="2" class="thumb__img-wrap filter">
+                    <img class="thumb__img" src="./img/3.jpg" alt="" />
+                </div>
+                <div id="3" class="thumb__img-wrap filter">
+                    <img class="thumb__img" src="./img/4.jpg" alt="" />
+                </div>
+            </div>
+            <div class="full">
+                <button class="full__btn">✖</button>
+                <img class="full__img" src="./img/1.jpg" alt="" />
+                <div class="full__bg"></div>
+                <button class="full__right">&gt;</button>
+                <button class="full__left">&lt;</button>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
